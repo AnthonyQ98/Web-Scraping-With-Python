@@ -15,4 +15,4 @@ def lottoNumber():
     lotto_winning_number_label = lotto_winning_number.find('label').text
     return lotto_winning_number_label
 
-print(" " + lottoNumber())
+print("The bonus number is " + lottoNumber())
